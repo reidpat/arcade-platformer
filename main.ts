@@ -70,7 +70,7 @@ controller.left.onEvent(ControllerButtonEvent.Released, function () {
 })
 let mySprite: Sprite = null
 tiles.setTilemap(tilemap`level1`)
-scene.setBackgroundColor(9)
+scene.setBackgroundColor(2)
 mySprite = sprites.create(img`
     . . . . . . f f f f f f . . . . 
     . . . . f f e e e e f 2 f . . . 
