@@ -93,4 +93,5 @@ mySprite.ay = 200
 tiles.placeOnTile(mySprite, tiles.getTileLocation(2, 12))
 scene.cameraFollowSprite(mySprite)
 controller.moveSprite(mySprite, 100, 0)
+music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.UntilDone)
 info.startCountdown(50)
